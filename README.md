@@ -6,6 +6,9 @@
   <br>
   <br>
   <a href="https://jotrockenmitlocken.de"><img src="images/Python_logo.png" alt="MLAlgo" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/Tensorflow_logo.svg.png" alt="MLAlgo" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/cupy_icon.png" alt="MLAlgo" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/anaconda_icon.png" alt="MLAlgo" width="50"></a>
   <br>
 </h1>
 
