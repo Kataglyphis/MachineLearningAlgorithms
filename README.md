@@ -1,16 +1,17 @@
 <h1 align="center">
   <br>
-  <a href="https://jotrocken.blog/"><img src="images/logo.png" alt="OpenGLEngine" width="150"></a>
+  <a href="https://jotrocken.blog/"><img src="images/logo.png" alt="MLAlgo" width="150"></a>
   <br>
-    MachineLearningAlgorithms
+    MLPlayground
   <br>
   <br>
-  <a href="https://jotrocken.blog/"><img src="images/Opengl-logo.png" alt="OpenGLEngine" width="200"></a>
-  <a href="https://jotrocken.blog/"><img src="images/glm_logo.png" alt="OpenGLEngine" width="150"></a>
+  <a href="https://jotrocken.blog/"><img src="images/Python_logo.png" alt="MLAlgo" width="50"></a>
   <br>
 </h1>
 
-<h4 align="center">A graphics engine built on top of OpenGL <a href="https://jotrocken.blog/" target="_blank"></a>.</h4>
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=BX9AVVES2P9LN)
+
+<h4 align="center"> Playground for various ML algorithms <a href="https://jotrockenmitlocken.de/" target="_blank"></a>.</h4>
 
 <!-- <p align="center">
   <a href="https://paypal.me/JonasHeinle?locale.x=de_DE">
@@ -47,8 +48,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li>
+      <a href="#roadmap">Roadmap</a></li>
+      <ul>
+        <li><a href="#prerequisites">VAE</a></li>
+        <li><a href="#installation">Image Segmentation</a></li>
+      </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -60,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Kataglyphis Engine][product-screenshot]](https://jotrocken.blog/)
+<!-- [![Kataglyphis Engine][product-screenshot]](https://jotrocken.blog/) -->
 
 The thought behind this project is to implement modern algortihms and 
 techniques that modern graphic engines rely on. 
@@ -78,42 +83,20 @@ the milestone document.
 <!-- ❌ -->
 |          Feature                              |   Implement Status | 
 | --------------------------------              | :----------------: | 
-| Directional Lights                            |         ✔️         |
-| Point Lights                                  |         ✔️         |
-| Spot Lights                                   |         ✔️         |
-| Directional Shadow Mapping                    |         ✔️         |
-| Omni-Directional Shadow Mapping               |         ✔️         |
-| Cascaded Shadow Mapping                       |         ✔️         |
-| Cloud system                                  |         ✔️         |
-| 3D-worley noise generation                    |         ✔️         |
-| .obj Model loading                            |         ✔️         |
-| PBR support (UE4,disney,phong, etc.)          |         ✔️         |
-| Support for `#include` directives in shaders. |         ✔️         |
-| Sky box                                       |         ✔️         |
-| Supporting compute shader                     |         ✔️         |
-| On the fly 3D worley/perlin noise creation    |         ✔️         |
+| VAE                                           |         ✔️         |
+
 
 ### Built With
 
-With the provided CMake file you are able to built the project on Linux (Ubuntu is tested)
-and Windows. I do not provide support for MacOS. Be aware of the dependencies: 
+* [Python](https://www.python.org/)
+* [CuPy](https://cupy.dev/)
+* [Cuda](https://developer.nvidia.com/cuda-zone)
 
-* [OpenGL 4.6](https://www.opengl.org//)
-* [GLM](https://github.com/g-truc/glm)
-* [GLFW](https://www.glfw.org/)
-* [TINYOBJLOADER](https://github.com/tinyobjloader/tinyobjloader)
-* [IMGUI](https://github.com/ocornut/imgui)
-* [GLEW](http://glew.sourceforge.net/)
-* [STB](https://github.com/nothings/stb)
-* [DOXYGEN](https://www.doxygen.nl/index.html)
-* [GTEST](https://github.com/google/googletest)
-* [CMAKE](https://cmake.org/)
 
 ### Useful tools (you might also considering :) )
 
 * [CPPCHECK](https://cppcheck.sourceforge.io/)
-* [RENDERDOC](https://renderdoc.org/)
-* [NSIGHTGRAPHICS](https://developer.nvidia.com/nsight-graphics)
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -122,7 +105,7 @@ You might only clone the repo and get to go immediately :)
 
 ### Prerequisites
 
-You will need OpenGL. If you want to build documantaries you will need [DOXYGEN] (https://www.doxygen.nl/index.html).
+
 
 
 ### Installation
@@ -130,11 +113,8 @@ You will need OpenGL. If you want to build documantaries you will need [DOXYGEN]
 1. Clone the repo
 
    ```sh
-   git clone --recurse-submodules git@github.com:Kataglyphis/GraphicEngine.git
+   git clone git@github.com:Kataglyphis/MachineLearningAlgorithms.git
    ```
-   Important for init the submodules
-
-2. Then build your solution with [CMAKE] (https://cmake.org/)
 
 
 <!-- USAGE EXAMPLES -->
@@ -143,8 +123,10 @@ You will need OpenGL. If you want to build documantaries you will need [DOXYGEN]
 
 <!-- ROADMAP -->
 ## Roadmap
-Upcoming :)
-<!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
+
+### VAE
+
+### Image Segmentation
 
 
 
@@ -167,24 +149,20 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 
-
 <!-- CONTACT -->
 ## Contact
 
 Jonas Heinle - [@Cataglyphis_](https://twitter.com/Cataglyphis_) - jonasheinle@googlemail.com
 
-Project Link: [https://github.com/Kataglyphis/GraphicsEngine](https://github.com/Kataglyphis/OpenGLEngine)
+Project Link: [https://github.com/Kataglyphis/MachineLearningAlgorithms](https://github.com/Kataglyphis/MachineLearningAlgorithms)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-I want to thank my partner Kansei who worked with me on a project. This project arised from this university project.
 * [Loading Screen Image](https://www.golem.de/news/raumfahrt-spacex-macht-sicherheitstest-bei-hoechster-belastung-2001-146124.html)
 
-Thanks for free 3D Models: 
-* [Morgan McGuire, Computer Graphics Archive, July 2017 (https://casual-effects.com/data)](http://casual-effects.com/data/)
 ## Literature 
 
 Some very helpful literature, tutorials, etc. 
@@ -193,29 +171,16 @@ Some very helpful literature, tutorials, etc.
 
 OpenGL 
 * [learnopengl.com](https://learnopengl.com/)
-* [ogldev.org](https://ogldev.org/)
-* [Cascaded Shadow Maps](https://ahbejarano.gitbook.io/lwjglgamedev/chapter26)
-* [Compute Shader in OpenGL](https://antongerdelan.net/opengl/compute.html)
 
 Clouds
 * [pbr-book](https://www.pbr-book.org/)
-* [Inigo Quilez](https://iquilezles.org)
-* [Shadertoy Horizon Zero Dawn](https://www.shadertoy.com/view/WddSDr)
-* [Sebastian Lague](https://m.youtube.com/watch?v=4QOcCGI6xOU&t=97s)
-* [Horizon Zero Dawn](http://advances.realtimerendering.com/s2015/The%20Real-time%20Volumetric%20Cloudscapes%20of%20Horizon%20-%20Zero%20Dawn%20-%20ARTR.pdf)
-* [Clouds and noise](https://thebookofshaders.com/12/)
-* [Shadertoy Clouds using 3D Perlin noise](https://www.shadertoy.com/view/XlKyRw)
+
 
 Noise
 * [Worley noise online demo](https://github.com/Erkaman/glsl-worley)
 
 Physically Based Shading
 * [The Bible: PBR book](https://pbr-book.org/3ed-2018/Reflection_Models/Microfacet_Models)
-* [Real shading in Unreal engine 4](https://blog.selfshadow.com/publications/s2013-shading-course/karis/s2013_pbs_epic_notes_v2.pdf)
-* [Physically Based Shading at Disney](https://blog.selfshadow.com/publications/s2012-shading-course/burley/s2012_pbs_disney_brdf_notes_v3.pdf)
-* [RealTimeRendering](https://www.realtimerendering.com/)
-* [Understanding the Masking-Shadowing Function in Microfacet-Based BRDFs](https://hal.inria.fr/hal-01024289/)
-* [Sampling the GGX Distribution of Visible Normals](https://pdfs.semanticscholar.org/63bc/928467d760605cdbf77a25bb7c3ad957e40e.pdf)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

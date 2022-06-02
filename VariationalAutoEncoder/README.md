@@ -1,58 +1,8 @@
-# VariationalAutoEncoder
-
-<h1 align="center">
-  <br>
-  <a href="https://jotrocken.blog/"><img src="images/logo.png" alt="OpenGLEngine" width="200"></a>
-  <br>
-  VAE
-  <br>
-</h1>
-
-<h4 align="center">A VAE implementation <a href="https://jotrocken.blog/" target="_blank"></a>.</h4>
-
 <p align="center">
   <a href="https://paypal.me/JonasHeinle?locale.x=de_DE">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
-
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
-</p>
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-      <ul>
-        <li><a href="#key-features">Key Features</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -63,18 +13,6 @@
 Implementing a VAE for genereting new images.
 
 ### Key Features
-
-
-|          Feature                |   Implement Status | ◾ Other Configs |
-| --------------------------------| :----------------: | :-------------: |
-| Generate new Images             |         ✔️         |        ❌      |
-
-
-### Built With
-
-* [Python](https://www.python.org/)
-* [CuPy](https://cupy.dev/)
-* [Cuda](https://developer.nvidia.com/cuda-zone)
 
 
 <!-- GETTING STARTED -->
