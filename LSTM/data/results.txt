@@ -1,0 +1,108 @@
+--------------------
+## Results
+--------------------
+From Kants critique of practical reason I got sentences like:
+
+(emb_size = 16
+hidden_size = 124
+seq_length = 512
+learning_rate = 5e-2 
+max_updates = 500000
+batch_size = 32)
+
+1.Result:
+"on this it thush that determinated and representakoug advantaresuct
+form) usefing
+on which there dayver in this made of us as all in our cases of a rat just on it were orle freptive the law is of it. Thus to formalore this serucion the vatures,
+the conding our explesed the vater, he constadnes and only a necessare the hedution now thisk the conduapo-sted anduredsifinated are
+lastingavt one of thisplyssul supposables outisaty his
+oblige of us. Forble only a have feeling to it it itself vione in it were is can in it were in this
+doublious merew, justifysero anderedores in our vabutualy as a new this
+condualed as alwagation as a
+categ- will gerery give
+us
+all the fationed as all caneon constanally a universal empithed for such it it be advantaking on it whrows for
+not of in this
+sured, or beings have or private it it it tho advinated in a noursinedmegules determinour now on it. Thus, fromnevery or in a prove of thishity or if and it of a raterfined to formare of this deterd no douneablentonedered it come is a higher deterd of this dul to high. Now
+its conduaventi;ethul frequently screp; this
+suterninamersthicatedmentare the om its oblinately is a higherw
+somethicated as alwaysion firmtom constionchilesogich is in this
+dodevere
+composenery
+thind the bas ratherw
+hablog constioning virtuest trued it out to
+formapo,
+advant well of and chereng in its or if thishs in our causaly his
+erred oursualing the
+ablegt of would only a universul the formais or segve
+frounds thishigances the vatherw
+the bat the determination of to its or in it because the caterfinateorangionation with things the deduct
+of morality this dod alonestimateneables, notions our ear
+of it a had of us a had only only a law with the
+bein the in
+happly to finds to
+acu thereon whiculain he can physist to this dut all the vated, however, of it it destricest, and man's onowledgringuit is nothing
+an every us to fog mo,ing on its own adept only a reasonally andering the
+tysted a universublestlying the bound fromnes"  
+
+2.Result:
+"on this it thush that determinated and representakoug advantaresuct
+form) usefing
+on which there dayver in this made of us as all in our cases of a rat just on it were orle freptive the law is of it. Thus to formalore this serucion the vatures,
+the conding our explesed the vater, he constadnes and only a necessare the hedution now thisk the conduapo-sted anduredsifinated are
+lastingavt one of thisplyssul supposables outisaty his
+oblige of us. Forble only a have feeling to it it itself vione in it were is can in it were in this
+doublious merew, justifysero anderedores in our vabutualy as a new this
+condualed as alwagation as a
+categ- will gerery give
+us
+all the fationed as all caneon constanally a universal empithed for such it it be advantaking on it whrows for
+not of in this
+sured, or beings have or private it it it tho advinated in a noursinedmegules determinour now on it. Thus, fromnevery or in a prove of thishity or if and it of a raterfined to formare of this deterd no douneablentonedered it come is a higher deterd of this dul to high. Now
+its conduaventi;ethul frequently screp; this
+suterninamersthicatedmentare the om its oblinately is a higherw
+somethicated as alwaysion firmtom constionchilesogich is in this
+dodevere
+composenery
+thind the bas ratherw
+hablog constioning virtuest trued it out to
+formapo,
+advant well of and chereng in its or if thishs in our causaly his
+erred oursualing the
+ablegt of would only a universul the formais or segve
+frounds thishigances the vatherw
+the bat the determination of to its or in it because the caterfinateorangionation with things the deduct
+of morality this dod alonestimateneables, notions our ear
+of it a had of us a had only only a law with the
+bein the in
+happly to finds to
+acu thereon whiculain he can physist to this dut all the vated, however, of it it destricest, and man's onowledgringuit is nothing
+an every us to fog mo,ing on its own adept only a reasonally andering the
+tysted a universublestlying the bound fromnes"
+
+3.Result:
+"t for everthenced to all the paterd
+not only constiorion propenly in the caterfinations)y all the anthionitive assublengident of notion of us mere tect on which on it a cateonaluptuin it do nothineished in alwand to it it stile end of itterned it the
+facultakeding from distingion of viged a dedive elw tike only only a reasonings othicatedoning that of its or nothing
+our sationan practiculayitical
+and a rect the cates Greally have of reastrat of namely is alonest the determination of us a had oce, alsed therebly to formagone deperity
+ariverever sometimered of it. Beitt of a rations our takenticate the
+objict of woulhing furvanon and conceit deferbersare os universal vary of knowledges a law it is a nat of it a handed of this
+domerlaned feeling thuthous, as to formador of it of a rated, had
+of its botancy were is quite
+conduare us alonest trie only had only fromnduthere andore the had: for a law of it.
+
+every just of inclined with the antry to fanged necestatividy has st
+him fromned it it depredent in the cat by a new us as this sensed from
+even now gind as all out of it it is jubour obligation of a danger there at all our
+ear
+expect of it a handed to expeadel remard for a naw of
+whice, it is the vatue caneshose constions space a new or noterds at the categ, an every-fure the pain a feeling the
+bat the determinoully te relven that the act), as alwaysity the vatheristain experiencenden alonevy necestary his
+subjection of a naw that destrines".
+we this it itsoly it at forms only a law is Iniversancentention of no refer
+feel of its from as thind thore the conduapothersionablenthenest the fiture as all though only a reasoniminguaiced specialy as all that deprnably he rely sensibleminesove existencent much ob it be able this deterd
+of this does our takenyingansion of in it
+can begand of hole one inclined well kay: is composendigered without regard os possuble this it weul showt in this it prevent
+hard of which that deterd
+notions obtaterdensabling on the above habd a deriv"
