@@ -228,6 +228,11 @@ Jonas Heinle - [@Cataglyphis_](https://twitter.com/Cataglyphis_) - jonasheinle@g
 Project Link: [https://github.com/Kataglyphis/MachineLearningAlgorithms](https://github.com/Kataglyphis/MachineLearningAlgorithms)
 
 ## Literature 
+Machine Learning Literature
+* [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+
+Datasets
+* [pytorch datasets](https://github.com/pytorch/vision)
 
 VAE
 * [Diederik P Kingma and Max Welling. 2013. Autoencoding variational bayes](https://arxiv.org/abs/1312.6114)
@@ -236,6 +241,9 @@ VAE
 LSTM 
 * [karpathy](https://github.com/karpathy/char-rnn)
 * [quanpn90](https://github.com/quanpn90/LSTMAssignment-DLNN2020)
+
+RNN
+* [karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
 Image Segmentation
 * [U-Net](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
