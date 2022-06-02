@@ -83,6 +83,7 @@ Playground for a variety of different ML algorithms
 ### Built With
 
 * [Python](https://www.python.org/)
+* [Jupyter Notebook](https://jupyter.org/)
 * [CuPy](https://cupy.dev/)
 * [Cuda](https://developer.nvidia.com/cuda-zone)
 * [TensorFlow](https://www.tensorflow.org/)
