@@ -1,11 +1,11 @@
 <h1 align="center">
   <br>
-  <a href="https://jotrocken.blog/"><img src="images/logo.png" alt="MLAlgo" width="150"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/logo.png" alt="MLAlgo" width="150"></a>
   <br>
     MLPlayground
   <br>
   <br>
-  <a href="https://jotrocken.blog/"><img src="images/Python_logo.png" alt="MLAlgo" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/Python_logo.png" alt="MLAlgo" width="50"></a>
   <br>
 </h1>
 
@@ -49,7 +49,7 @@
       </ul>
     </li>
     <li>
-      <a href="#roadmap">Roadmap</a></li>
+      <a href="#roadmap">Usage</a></li>
       <ul>
         <li><a href="#prerequisites">VAE</a></li>
         <li><a href="#installation">Image Segmentation</a></li>
@@ -57,7 +57,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#literature">Literature</a></li>
   </ol>
 </details>
@@ -65,18 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Kataglyphis Engine][product-screenshot]](https://jotrocken.blog/) -->
-
-The thought behind this project is to implement modern algortihms and 
-techniques that modern graphic engines rely on. 
-Furthermore it should serve as a framework to enable further investigations
-in own research topics.
-Feel free to contribute and adding stuff :)
-Reminder: This project is based on my interest in implementing algortihms by
-my own and make own research. Hence you might encounter some bugs. Feel free 
-to report.
-This project was a result from an assignment. Under documents you can find 
-the milestone document.
+Playground for a variety of different ML algorithms
 
 ### Key Features
 
@@ -84,19 +72,17 @@ the milestone document.
 |          Feature                              |   Implement Status | 
 | --------------------------------              | :----------------: | 
 | VAE                                           |         ✔️         |
-
+| LSTM                                          |         ✔️         |
+| Image Segmentation with U-Net                 |         ✔️         |
+| Object Detection                              |         ✔️         |
+| Face similarity measure                       |         ✔️         |
 
 ### Built With
 
 * [Python](https://www.python.org/)
 * [CuPy](https://cupy.dev/)
 * [Cuda](https://developer.nvidia.com/cuda-zone)
-
-
-### Useful tools (you might also considering :) )
-
-* [CPPCHECK](https://cppcheck.sourceforge.io/)
-
+* [TensorFlow](https://www.tensorflow.org/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -104,8 +90,6 @@ the milestone document.
 You might only clone the repo and get to go immediately :)
 
 ### Prerequisites
-
-
 
 
 ### Installation
@@ -120,15 +104,102 @@ You might only clone the repo and get to go immediately :)
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-
-<!-- ROADMAP -->
-## Roadmap
-
 ### VAE
+
+```sh
+    # for training VAE
+    python train_vae.py train
+    # checking the gradients
+    python train_vae.py gradcheck
+    #generating sample
+    python train_vae.py sample
+   ```
+
+<h1 align="center">
+  <br>
+  <a href="https://jotrockenmitlocken.de"><img src="images/Screenshot_2.png" alt="MLAlgo" width="300"></a>
+  <br>
+</h1>
+
+### LSTM 
+
+
+```sh
+    # for training VAE
+    python lstm_cupy.py train
+    # checking the gradients
+    python lstm_cupy.py gradcheck
+    #generating sample
+    python lstm_cupy.py sample sample
+```
+
+---
+**NOTE**
+Under folder "data/" one can place any kind of .txt file one want to train the net with.
+Just make sure it is a .txt!
+---
+
+```
+From Kants critique of practical reason I got sentences like:
+
+(emb_size = 16
+hidden_size = 124
+seq_length = 512
+learning_rate = 5e-2 
+max_updates = 500000
+batch_size = 32)
+
+1.Result:
+"on this it thush that determinated and representakoug advantaresuct
+form) usefing
+on which there dayver in this made of us as all in our cases of a rat just on it were orle freptive the law is of it. Thus to formalore this serucion the vatures,
+the conding our explesed the vater, he constadnes and only a necessare the hedution now thisk the conduapo-sted anduredsifinated are
+lastingavt one of thisplyssul supposables outisaty his
+oblige of us. Forble only a have feeling to it it itself vione in it were is can in it were in this
+doublious merew, justifysero anderedores in our vabutualy as a new this
+condualed as alwagation as a
+categ- will gerery give
+us
+all the fationed as all caneon constanally a universal empithed for such it it be advantaking on it whrows for
+not of in this
+sured, or beings have or private it it it tho advinated in a noursinedmegules determinour now on it. Thus, fromnevery or in a prove of thishity or if and it of a raterfined to formare of this deterd no douneablentonedered it come is a higher deterd of this dul to high. Now
+its conduaventi;ethul frequently screp; this
+suterninamersthicatedmentare the om its oblinately is a higherw
+somethicated as alwaysion firmtom constionchilesogich is in this
+dodevere
+composenery
+thind the bas ratherw
+hablog constioning virtuest trued it out to
+formapo,
+advant well of and chereng in its or if thishs in our causaly his
+erred oursualing the
+ablegt of would only a universul the formais or segve
+frounds thishigances the vatherw
+the bat the determination of to its or in it because the caterfinateorangionation with things the deduct
+of morality this dod alonestimateneables, notions our ear
+of it a had of us a had only only a law with the
+bein the in
+happly to finds to
+acu thereon whiculain he can physist to this dut all the vated, however, of it it destricest, and man's onowledgringuit is nothing
+an every us to fog mo,ing on its own adept only a reasonally andering the
+tysted a universublestlying the bound fromnes"  
+
+```
 
 ### Image Segmentation
 
+There is a high demand in image segmentation applications.
+With this project you get access to a tool enabling you to build such.
 
+<h1 align="center">
+  <br>
+  <a href="https://jotrockenmitlocken.de"><img src="images/SkinDetection.png" alt="MLAlgo" width="300"></a>
+  <br>
+</h1>
+
+### Object Detection
+
+### Face similarity measure
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -141,13 +212,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the GPL-3.0 License. See `LICENSE` for more information.
-
 
 <!-- CONTACT -->
 ## Contact
@@ -156,31 +224,18 @@ Jonas Heinle - [@Cataglyphis_](https://twitter.com/Cataglyphis_) - jonasheinle@g
 
 Project Link: [https://github.com/Kataglyphis/MachineLearningAlgorithms](https://github.com/Kataglyphis/MachineLearningAlgorithms)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* [Loading Screen Image](https://www.golem.de/news/raumfahrt-spacex-macht-sicherheitstest-bei-hoechster-belastung-2001-146124.html)
-
 ## Literature 
 
-Some very helpful literature, tutorials, etc. 
+VAE
+* [Diederik P Kingma and Max Welling. 2013. Autoencoding variational bayes](https://arxiv.org/abs/1312.6114)
+* [quanpn90](https://github.com/quanpn90/VAEAssignment-DLNN2020)
 
-* [View Frustum Culling](http://www.lighthouse3d.com/tutorials/view-frustum-culling/geometric-approach-extracting-the-planes/)
+LSTM 
+* [karpathy](https://github.com/karpathy/char-rnn)
+* [quanpn90](https://github.com/quanpn90/LSTMAssignment-DLNN2020)
 
-OpenGL 
-* [learnopengl.com](https://learnopengl.com/)
-
-Clouds
-* [pbr-book](https://www.pbr-book.org/)
-
-
-Noise
-* [Worley noise online demo](https://github.com/Erkaman/glsl-worley)
-
-Physically Based Shading
-* [The Bible: PBR book](https://pbr-book.org/3ed-2018/Reflection_Models/Microfacet_Models)
+Image Segmentation
+* [U-Net](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -196,5 +251,3 @@ Physically Based Shading
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jonas-heinle-0b2a301a0/
-[product-screenshot]: images/Screenshot.png
-
