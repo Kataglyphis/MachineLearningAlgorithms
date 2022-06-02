@@ -72,14 +72,28 @@ Playground for a variety of different ML algorithms
 ### Key Features
 
 <!-- ❌ -->
-|          Feature                              |   Implement Status | 
-| --------------------------------              | :----------------: | 
-| VAE                                           |         ✔️         |
-| LSTM                                          |         ✔️         |
-| Image Segmentation with U-Net                 |         ✔️         |
-| Object Detection                              |         ✔️         |
-| Face similarity measure                       |         ✔️         |
-
+|          Feature                                      |   Implement Status | 
+| --------------------------------                      | :----------------: | 
+| VAE                                                   |         ✔️         |
+| LSTM                                                  |         ✔️         |
+| Image Segmentation with U-Net                         |         ✔️         |
+| Object Detection                                      |         ✔️         |
+| Face similarity measure                               |         ✔️         |
+| Linear Regression                                     |         ✔️         |
+| Linear Classification                                 |         ✔️         |
+| Naive Bayes Classifier                                |         ✔️         |
+| Multiclass Classification                             |         ✔️         |
+| k-NN                                                  |         ✔️         |
+| Forests                                               |         ✔️         |
+| Kernel Ridge Regression                               |         ✔️         |
+| Kernelized Support Vector Machine                     |         ✔️         |
+| Bayesian Linear Regression                            |         ✔️         |
+| Gaussian Processes                                    |         ✔️         |
+| k-Means                                               |         ✔️         |
+| Expectation Maximization for Gaussian Mixture Models  |         ✔️         |
+| Probabilistic PCA with Expectation Maximization       |         ✔️         |
+| Neural Network Classifier from Scratch                |         ✔️         |
+| Probabilistic PCA with Expectation Maximization       |         ✔️         |
 ### Built With
 
 * [Python](https://www.python.org/)
