@@ -14,6 +14,8 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=BX9AVVES2P9LN)
 [![Donate](https://img.shields.io/github/languages/top/Kataglyphis/MachineLearningAlgorithms)](https://jotrockenmitlocken.de)
+[![Twitter](https://img.shields.io/twitter/follow/Cataglyphis_?style=social)](https://twitter.com/Cataglyphis_)
+[![YouTube](https://img.shields.io/youtube/channel/subscribers/UC3LZiH4sZzzaVBCUV8knYeg?style=social)](https://www.youtube.com/channel/UC3LZiH4sZzzaVBCUV8knYeg)
 
 <h4 align="center"> Playground for various ML algorithms <a href="https://jotrockenmitlocken.de/" target="_blank"></a>.</h4>
 
@@ -102,13 +104,16 @@ Playground for a variety of different ML algorithms
 * [CuPy](https://cupy.dev/)
 * [Cuda](https://developer.nvidia.com/cuda-zone)
 * [TensorFlow](https://www.tensorflow.org/)
+* [Anaconda](https://www.anaconda.com/products/distribution)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You might only clone the repo and get to go immediately :)
-
 ### Prerequisites
+
+[Python](https://www.python.org/) 3.9 <br />
+For the dependencies on python modules I created a [Anaconda Env .yml](Documents/anaconda/environment.yaml). You can import it in your anaconda project.<br />
+Some graphics card. 
 
 
 ### Installation
@@ -118,7 +123,7 @@ You might only clone the repo and get to go immediately :)
    ```sh
    git clone git@github.com:Kataglyphis/MachineLearningAlgorithms.git
    ```
-
+2. Consider using some form of packet management/-distribution software. I am using here [Anaconda](https://www.anaconda.com/products/distribution). If you also do so you can use my [Anaconda Env .yml](Documents/anaconda/environment.yaml) for getting all python module dependencies.
 
 <!-- USAGE EXAMPLES -->
 ## Usage

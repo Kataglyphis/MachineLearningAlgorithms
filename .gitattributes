@@ -1,0 +1,2 @@
+# exclude all files from language analysis which do not directly contribute to engine
+Exercises/** linguist-vendored
