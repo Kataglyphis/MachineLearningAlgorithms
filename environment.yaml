@@ -5,157 +5,157 @@ dependencies:
   - typing-extensions
   - pytest
   - flake8
-  # - ipython_genutils
-  # - pyparsing
-  # - webencodings
-  # - jupyter_client
-  # - wcwidth
-  # - argon2-cffi
-  # - google-auth
-  # - gast
-  # - pandoc
-  # - freetype
-  # - jupyterlab_pygments
-  # - toml
-  # - notebook
-  # - pickleshare
-  # - kiwisolver
-  # - certifi
-  # - packaging
-  # - google-auth-oauthlib
-  # - idna_ssl
-  # - ca-certificates
-  # - iniconfig
-  # - numpy
-  # - attrs
-  # - icu
-  # - tornado
-  # - requests-oauthlib
-  # - sip
-  # - python=3.6
-  # - protobuf
-  # - pyjwt
-  # - matplotlib-base
-  # - wrapt
-  # - tk
-  # - atomicwrites
-  # - intel-openmp
-  # - yaml
-  # - pluggy
-  # - pygments
-  # - cudnn
-  # - opt_einsum
-  # - requests
-  # - pip
-  # - matplotlib
-  # - zstd
-  # - nbformat
-  # - olefile
-  # - multidict
-  # - ipykernel
-  # - charset-normalizer
-  # - pyopenssl
-  # - libtiff
-  # - jinja2
-  # - pyzmq
-  # - grpcio
-  # - markdown
-  # - async_generator
-  # - importlib_metadata
-  # - idna
-  # - libprotobuf
-  # - zlib
-  # - brotlipy
-  # - pycparser
-  # - yarl
-  # - _tflow_select
-  # - keras-preprocessing
-  # - keras-applications
-  # - pyasn1-modules
-  # - pyasn1
-  # - typing_extensions
-  # - defusedxml
-  # - parso
-  # - cachetools
-  # - google-pasta
-  # - pytest
-  # - blinker
-  # - six
-  # - pysocks
-  # - cudatoolkit
-  # - markupsafe
-  # - mkl
-  # - hdf5
-  # - mistune
-  # - prompt-toolkit
-  # - jupyter_core
-  # - pyqt
-  # - numpy-base
-  # - werkzeug
-  # - blas
-  # - cffi
-  # - colorama
-  # - py
-  # - aiohttp
-  # - astor
-  # - more-itertools
-  # - jsonschema
-  # - terminado
-  # - keras-gpu
-  # - tensorboard-plugin-wit
-  # - jpeg
-  # - coverage
-  # - testpath
-  # - nbclient
-  # - qt
-  # - tensorflow-base
-  # - oauthlib
-  # - tensorflow
-  # - click
-  # - cython
-  # - setuptools
-  # - termcolor
-  # - opencv
-  # - cycler
-  # - cryptography
-  # - joblib
-  # - tensorflow-estimator
-  # - scipy
-  # - wheel
-  # - importlib-metadata
-  # - rsa
-  # - send2trash
-  # - entrypoints
-  # - pyrsistent
-  # - keras-base
-  # - jedi
-  # - lz4-c
-  # - nest-asyncio
-  # - h5py
-  # - sqlite
-  # - decorator
-  # - tensorflow-gpu
-  # - pyyaml
-  # - tensorboard
-  # - backcall
-  # - nbconvert
-  # - pandocfilters
-  # - pandas
-  # - absl-py
-  # - mkl-service
-  # - zipp
-  # - libpng
-  # - pytz
-  # - async-timeout
-  # - scikit-learn
-  # - xz
-  # - bleach
-  # - ipython
-  # - openssl
-  # - pillow
-  # - prometheus_client
-  # - python-dateutil
-  # - urllib3
-  # - traitlets
-  # - threadpoolctl
-  # - chardet
+  - ipython_genutils
+  - pyparsing
+  - webencodings
+  - jupyter_client
+  - wcwidth
+  - argon2-cffi
+  - google-auth
+  - gast
+  - pandoc
+  - freetype
+  - jupyterlab_pygments
+  - toml
+  - notebook
+  - pickleshare
+  - kiwisolver
+  - certifi
+  - packaging
+  - google-auth-oauthlib
+  - idna_ssl
+  - ca-certificates
+  - iniconfig
+  - numpy
+  - attrs
+  - icu
+  - tornado
+  - requests-oauthlib
+  - sip
+  - python=3.6
+  - protobuf
+  - pyjwt
+  - matplotlib-base
+  - wrapt
+  - tk
+  - atomicwrites
+  - intel-openmp
+  - yaml
+  - pluggy
+  - pygments
+  - cudnn
+  - opt_einsum
+  - requests
+  - pip
+  - matplotlib
+  - zstd
+  - nbformat
+  - olefile
+  - multidict
+  - ipykernel
+  - charset-normalizer
+  - pyopenssl
+  - libtiff
+  - jinja2
+  - pyzmq
+  - grpcio
+  - markdown
+  - async_generator
+  - importlib_metadata
+  - idna
+  - libprotobuf
+  - zlib
+  - brotlipy
+  - pycparser
+  - yarl
+  - _tflow_select
+  - keras-preprocessing
+  - keras-applications
+  - pyasn1-modules
+  - pyasn1
+  - typing_extensions
+  - defusedxml
+  - parso
+  - cachetools
+  - google-pasta
+  - pytest
+  - blinker
+  - six
+  - pysocks
+  - cudatoolkit
+  - markupsafe
+  - mkl
+  - hdf5
+  - mistune
+  - prompt-toolkit
+  - jupyter_core
+  - pyqt
+  - numpy-base
+  - werkzeug
+  - blas
+  - cffi
+  - colorama
+  - py
+  - aiohttp
+  - astor
+  - more-itertools
+  - jsonschema
+  - terminado
+  - keras-gpu
+  - tensorboard-plugin-wit
+  - jpeg
+  - coverage
+  - testpath
+  - nbclient
+  - qt
+  - tensorflow-base
+  - oauthlib
+  - tensorflow
+  - click
+  - cython
+  - setuptools
+  - termcolor
+  - opencv
+  - cycler
+  - cryptography
+  - joblib
+  - tensorflow-estimator
+  - scipy
+  - wheel
+  - importlib-metadata
+  - rsa
+  - send2trash
+  - entrypoints
+  - pyrsistent
+  - keras-base
+  - jedi
+  - lz4-c
+  - nest-asyncio
+  - h5py
+  - sqlite
+  - decorator
+  - tensorflow-gpu
+  - pyyaml
+  - tensorboard
+  - backcall
+  - nbconvert
+  - pandocfilters
+  - pandas
+  - absl-py
+  - mkl-service
+  - zipp
+  - libpng
+  - pytz
+  - async-timeout
+  - scikit-learn
+  - xz
+  - bleach
+  - ipython
+  - openssl
+  - pillow
+  - prometheus_client
+  - python-dateutil
+  - urllib3
+  - traitlets
+  - threadpoolctl
+  - chardet
