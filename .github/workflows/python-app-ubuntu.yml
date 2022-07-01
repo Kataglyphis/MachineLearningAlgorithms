@@ -29,7 +29,7 @@ jobs:
 
     - name: Lint with flake8
       run: |
-        # export PATH=$PATH:/usr/share/miniconda/bin/flake8
+        export PATH=$PATH:/usr/share/miniconda/bin/
         ls /usr/share/miniconda/envs/environment/bin/
         # whereis flake8
         # stop the build if there are Python syntax errors or undefined names
