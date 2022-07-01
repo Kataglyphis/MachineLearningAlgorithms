@@ -3,6 +3,8 @@ channels:
   - defaults
 dependencies:
   - typing-extensions
+  - pytest
+  - flake8
   # - ipython_genutils
   # - pyparsing
   # - webencodings
