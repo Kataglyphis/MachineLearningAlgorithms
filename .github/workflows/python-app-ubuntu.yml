@@ -26,13 +26,13 @@ jobs:
         environment-file: environment.yaml
         python-version: 3.6.13
         auto-activate-base: false
+    - name: Conda list
+      shell: bash -l {0}
+      run: conda list
 
     - name: Lint with flake8
       run: |
         conda activate environment
-        export PATH=$PATH:/usr/share/miniconda/bin/
-        ls /usr/share/miniconda/envs/environment/bin/
-        # whereis flake8
         # stop the build if there are Python syntax errors or undefined names
         conda info
         conda install flake8
