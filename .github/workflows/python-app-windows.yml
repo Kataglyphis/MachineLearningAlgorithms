@@ -19,18 +19,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.6.7
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.6.7"
-        architecture: 'x64'
+    - name: Setup Miniconda
+      uses: conda-incubator/setup-miniconda@v2.1.1
+      with: 
+        activate-environment: env
+        environment-file: environment.yml
+        python-version: 3.6.7
+        auto-activate-base: false
+
     - name: Install dependencies
       run: |
-        python -m venv env
-        env\Scripts\activate.bat
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
-        pip install -r requirements_windows.txt
+        conda install flake8 pytest
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
