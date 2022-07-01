@@ -30,6 +30,9 @@ jobs:
     - name: Install dependencies
       run: |
         conda install flake8 pytest
+        conda install pytest
+        conda install coverage
+        conda install requests
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -38,7 +41,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --cov
+        pytest
+        coverage run -m pytest
     - name: Codecov
       uses: codecov/codecov-action@v3.1.0
       with:
