@@ -26,6 +26,8 @@ jobs:
         architecture: 'x64'
     - name: Install dependencies
       run: |
+        python -m venv env
+        source env/bin/activate
         python -m pip install --upgrade pip
         pip install flake8 pytest
         pip install -r requirements_windows.txt
