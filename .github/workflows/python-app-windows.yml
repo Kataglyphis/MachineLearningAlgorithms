@@ -16,6 +16,7 @@ jobs:
   build:
 
     runs-on: windows-latest
+    if: "contains(github.event.head_commit.message, '[build-ci]')"
 
     steps:
     - uses: actions/checkout@v3
@@ -43,11 +44,12 @@ jobs:
       run: |
         pytest
         coverage run -m pytest
+        coverage xml
     - name: Codecov
       uses: codecov/codecov-action@v3.1.0
       with:
         token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-        # files: coverage_xml.xml # optional
+        files: coverage.xml # optional
         #flags: unittests # optional
         name: codecov-umbrella # optional
         fail_ci_if_error: false # optional (default = false)
