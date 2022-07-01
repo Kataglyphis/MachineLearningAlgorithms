@@ -107,7 +107,7 @@ Playground for a variety of different ML algorithms
 * [TensorFlow](https://www.tensorflow.org/)
 * [Anaconda](https://www.anaconda.com/products/distribution)
 * [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html#get-started)
-
+* [Github Actions: setup-miniconda](https://github.com/marketplace/actions/setup-miniconda)
 <!-- GETTING STARTED -->
 ## Getting Started
 
