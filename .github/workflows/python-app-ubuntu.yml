@@ -29,6 +29,7 @@ jobs:
 
     - name: Lint with flake8
       run: |
+        conda activate environment
         export PATH=$PATH:/usr/share/miniconda/bin/
         ls /usr/share/miniconda/envs/environment/bin/
         # whereis flake8
