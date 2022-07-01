@@ -159,10 +159,10 @@ def backward(activations, clipping=True):
     for t in reversed(range(input_length)):
         # computing the gradients here
 
-    # clip to mitigate exploding gradients
-    if clipping:
-        for dparam in [dWex, dWf, dWi, dWo, dWc, dbf, dbi, dbo, dbc, dWhy, dby]:
-            np.clip(dparam, -5, 5, out=dparam)
+        # clip to mitigate exploding gradients
+        if clipping:
+            for dparam in [dWex, dWf, dWi, dWo, dWc, dbf, dbi, dbo, dbc, dWhy, dby]:
+                np.clip(dparam, -5, 5, out=dparam)
 
     gradients = (dWex, dWf, dWi, dWo, dWc, dbf, dbi, dbo, dbc, dWhy, dby)
 
