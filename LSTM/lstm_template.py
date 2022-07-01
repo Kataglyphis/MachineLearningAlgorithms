@@ -182,8 +182,8 @@ def sample(memory, seed_ix, n):
 
         # forward pass again, but we do not have to store the activations now
 
-        p = np.exp(y) / np.sum(np.exp(y))
-        ix = np.random.choice(range(vocab_size), p=p.ravel())
+        # p = np.exp(y) / np.sum(np.exp(y))
+        # ix = np.random.choice(range(vocab_size), p=p.ravel())
 
         index = ix
         x = np.zeros((vocab_size, 1))
