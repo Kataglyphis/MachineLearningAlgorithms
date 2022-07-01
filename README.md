@@ -19,6 +19,7 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=BX9AVVES2P9LN)
 [![Twitter](https://img.shields.io/twitter/follow/Cataglyphis_?style=social)](https://twitter.com/Cataglyphis_)
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UC3LZiH4sZzzaVBCUV8knYeg?style=social)](https://www.youtube.com/channel/UC3LZiH4sZzzaVBCUV8knYeg)
+[![Anaconda-Server Badge](https://anaconda.org/anaconda/flake8/badges/installer/conda.svg)](https://conda.anaconda.org/anaconda)
 
 <h4 align="center"> Playground for various ML algorithms <a href="https://jotrockenmitlocken.de/" target="_blank"></a>.</h4>
 
