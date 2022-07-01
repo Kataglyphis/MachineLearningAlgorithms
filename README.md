@@ -134,7 +134,7 @@ Some graphics card.
    git clone git@github.com:Kataglyphis/MachineLearningAlgorithms.git
    ```
 2. Consider using some form of packet management/-distribution software. I am using here [Anaconda](https://www.anaconda.com/products/distribution). If you also do so you can use my [Anaconda Env .yml](Documents/anaconda/environment.yaml) for getting all python module dependencies.
- 
+  
 <!-- USAGE EXAMPLES -->
 ## Usage
 
