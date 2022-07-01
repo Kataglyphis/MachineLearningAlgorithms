@@ -33,6 +33,7 @@ jobs:
       run: |
         conda install -c anaconda flake8
         conda install -c conda-forge pytest
+        whereis conda
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names

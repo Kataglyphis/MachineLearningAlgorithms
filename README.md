@@ -11,7 +11,7 @@
   <a href="https://jotrockenmitlocken.de"><img src="images/anaconda_icon.png" alt="MLAlgo" width="50"></a>
   <br>
 </h1>
- 
+  
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20ubuntu?label=Ubuntu%20build&logo=Github)](https://jotrockenmitlocken.de)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20Windows?label=Windows%20build&logo=Github)](https://jotrockenmitlocken.de)
 [![TopLang](https://img.shields.io/github/languages/top/Kataglyphis/MachineLearningAlgorithms)](https://jotrockenmitlocken.de)
