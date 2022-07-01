@@ -281,6 +281,7 @@ Project Link: [https://github.com/Kataglyphis/MachineLearningAlgorithms](https:/
 ## Literature 
 Anaconda
 * [cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
+
 Machine Learning Literature
 * [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
  
