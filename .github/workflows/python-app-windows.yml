@@ -23,7 +23,7 @@ jobs:
     - name: Setup Miniconda
       uses: conda-incubator/setup-miniconda@v2.1.1
       with: 
-        activate-environment: GPU_
+        activate-environment: environment
         environment-file: environment.yaml
         python-version: 3.6.13
         auto-activate-base: false
