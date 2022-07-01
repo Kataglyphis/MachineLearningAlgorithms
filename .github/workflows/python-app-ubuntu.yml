@@ -24,7 +24,7 @@ jobs:
       with: 
         activate-environment: env
         environment-file: environment.yaml
-        python-version: 3.6.7
+        python-version: 3.6.13
         auto-activate-base: false
 
     - name: Install dependencies
