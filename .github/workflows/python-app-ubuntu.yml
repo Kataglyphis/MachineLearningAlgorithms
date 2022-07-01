@@ -28,13 +28,9 @@ jobs:
         python-version: 3.6.13
         auto-activate-base: false
 
-    # - name: Install dependencies
-    # # https://docs.python.org/3/tutorial/venv.html
-    #   run: |
-    #     conda install -c anaconda flake8
-    #     conda install -c conda-forge pytest
     - name: Lint with flake8
       run: |
+        conda activate environment
         # export PATH=$PATH:/usr/share/miniconda/bin/flake8
         # ls /usr/share/miniconda/envs/environment/bin/
         # whereis flake8
