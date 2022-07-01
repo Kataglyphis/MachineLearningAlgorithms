@@ -159,10 +159,10 @@ def backward(activations, clipping=True):
     for t in reversed(range(input_length)):
         # computing the gradients here
 
-        # clip to mitigate exploding gradients
-        if clipping:
-            for dparam in [dWex, dWf, dWi, dWo, dWc, dbf, dbi, dbo, dbc, dWhy, dby]:
-                np.clip(dparam, -5, 5, out=dparam)
+    # clip to mitigate exploding gradients
+    if clipping:
+        for dparam in [dWex, dWf, dWi, dWo, dWc, dbf, dbi, dbo, dbc, dWhy, dby]:
+            np.clip(dparam, -5, 5, out=dparam)
 
     gradients = (dWex, dWf, dWi, dWo, dWc, dbf, dbi, dbo, dbc, dWhy, dby)
 
@@ -178,17 +178,17 @@ def sample(memory, seed_ix, n):
     x = np.zeros((vocab_size, 1))
     x[seed_ix] = 1
     ixes = []
-    #for t in range(n):
+    for t in range(n):
 
         # forward pass again, but we do not have to store the activations now
 
-        # p = np.exp(y) / np.sum(np.exp(y))
-        # ix = np.random.choice(range(vocab_size), p=p.ravel())
+        p = np.exp(y) / np.sum(np.exp(y))
+        ix = np.random.choice(range(vocab_size), p=p.ravel())
 
-        # index = ix
-        # x = np.zeros((vocab_size, 1))
-        # x[index] = 1
-        # ixes.append(index)
+        index = ix
+        x = np.zeros((vocab_size, 1))
+        x[index] = 1
+        ixes.append(index)
     return ixes
 
 

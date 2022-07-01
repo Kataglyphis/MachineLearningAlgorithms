@@ -145,11 +145,11 @@ def forward(input):
 
     # # (9) dec to p(x)
     # and (10) reconstruction loss function (same as the
-    # if loss_function == 'bce':
+    if loss_function == 'bce':
 
         # BCE Loss
 
-    # elif loss_function == 'mse':
+    elif loss_function == 'mse':
 
         # MSE Loss
 
