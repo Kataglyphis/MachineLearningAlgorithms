@@ -35,9 +35,7 @@ jobs:
         conda install -c conda-forge pytest
     - name: Lint with flake8
       run: |
-        whereis flake8
-        export PATH=$PATH:/usr/bin/flake8
-        export PATH=$PATH:/usr/share/miniconda/condabin/flake8
+        export PATH=$PATH:/usr/share/miniconda/envs/environment/bin/flake8
         echo $PATH
         whereis flake8
         # stop the build if there are Python syntax errors or undefined names
