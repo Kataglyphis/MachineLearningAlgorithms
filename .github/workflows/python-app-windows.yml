@@ -30,7 +30,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install flake8
+        conda install flake8
         conda install -c conda-forge pytest
         conda install coverage
         conda install requests
