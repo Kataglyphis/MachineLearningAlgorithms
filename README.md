@@ -136,7 +136,7 @@ Some graphics card.
   ```sh
     conda activate <env>
     conda install pip
-    pip freeze > requirements.txt
+    pip list --format=freeze > requirements.txt
   ```
   For more information go to this excellent [stackoverflow entry](https://stackoverflow.com/questions/50777849/from-conda-create-requirements-txt-for-pip3).
 
