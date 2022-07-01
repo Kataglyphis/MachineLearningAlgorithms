@@ -80,8 +80,6 @@ dependencies:
   - matplotlib-base=3.3.4=py36h49ac443_0
   - mistune=0.8.4=py36he774522_0
   - mkl=2020.2=256
-  - mkl-service=2.3.0=py36h196d8e1_0
-  - mkl_random=1.1.1=py36h47e9c7a_0
   - more-itertools=8.12.0=pyhd3eb1b0_0
   - msys2-conda-epoch=20160418=1
   - multidict=5.1.0=py36h2bbff1b_2
