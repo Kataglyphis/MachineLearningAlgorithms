@@ -24,7 +24,10 @@ jobs:
       with:
         python-version: "3.6.7"
     - name: Install dependencies
+    # https://docs.python.org/3/tutorial/venv.html
       run: |
+        python -m venv env
+        env\Scripts\activate.bat
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements_windows.txt ]; then pip install -r requirements_windows.txt; fi
