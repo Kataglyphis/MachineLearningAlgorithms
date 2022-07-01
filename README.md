@@ -11,11 +11,15 @@
   <a href="https://jotrockenmitlocken.de"><img src="images/anaconda_icon.png" alt="MLAlgo" width="50"></a>
   <br>
 </h1>
-
+ 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20ubuntu?label=Ubuntu%20build&logo=Github)](https://jotrockenmitlocken.de)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20Windows?label=Windows%20build&logo=Github)](https://jotrockenmitlocken.de)
+[![TopLang](https://img.shields.io/github/languages/top/Kataglyphis/MachineLearningAlgorithms)](https://jotrockenmitlocken.de)
+[![codecov](https://codecov.io/gh/Kataglyphis/MachineLearningAlgorithms/branch/main/graph/badge.svg?token=ABEPPS3KCJ)](https://codecov.io/gh/Kataglyphis/MachineLearningAlgorithms)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=BX9AVVES2P9LN)
-[![Donate](https://img.shields.io/github/languages/top/Kataglyphis/MachineLearningAlgorithms)](https://jotrockenmitlocken.de)
 [![Twitter](https://img.shields.io/twitter/follow/Cataglyphis_?style=social)](https://twitter.com/Cataglyphis_)
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UC3LZiH4sZzzaVBCUV8knYeg?style=social)](https://www.youtube.com/channel/UC3LZiH4sZzzaVBCUV8knYeg)
+[![Anaconda-Server Badge](https://anaconda.org/anaconda/flake8/badges/installer/conda.svg)](https://conda.anaconda.org/anaconda)
 
 <h4 align="center"> Playground for various ML algorithms <a href="https://jotrockenmitlocken.de/" target="_blank"></a>.</h4>
 
@@ -57,8 +61,14 @@
     <li>
       <a href="#roadmap">Usage</a></li>
       <ul>
-        <li><a href="#prerequisites">VAE</a></li>
-        <li><a href="#installation">Image Segmentation</a></li>
+        <li><a href="#environment">pip/conda environment</a></li>
+        <li><a href="#vae">VAE</a></li>
+        <li><a href="#image segmentation">Image Segmentation</a></li>
+      </ul>
+    <li>
+      <a href="#roadmap">Tests</a></li>
+      <ul>
+        <li><a href="#environment">Code Coverage</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -105,7 +115,8 @@ Playground for a variety of different ML algorithms
 * [Cuda](https://developer.nvidia.com/cuda-zone)
 * [TensorFlow](https://www.tensorflow.org/)
 * [Anaconda](https://www.anaconda.com/products/distribution)
-
+* [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html#get-started)
+* [Github Actions: setup-miniconda](https://github.com/marketplace/actions/setup-miniconda)
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -124,9 +135,18 @@ Some graphics card.
    git clone git@github.com:Kataglyphis/MachineLearningAlgorithms.git
    ```
 2. Consider using some form of packet management/-distribution software. I am using here [Anaconda](https://www.anaconda.com/products/distribution). If you also do so you can use my [Anaconda Env .yml](Documents/anaconda/environment.yaml) for getting all python module dependencies.
-
+  
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+### pip/conda environment
+
+I use this command to generate cross-platform env.yaml files.
+```sh
+    conda env export --from-history>environment.yaml
+   ```
+
+see also: [Anaconda entry on environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment).
 
 ### VAE
 
@@ -225,6 +245,16 @@ With this project you get access to a tool enabling you to build such.
 
 ### Face similarity measure
 
+## Tests
+
+### Code Coverage
+* [Watch test results here](Documents/googletest/test_detail.xml)
+<h3>Code coverage results</h3>
+<h1 align="center">
+  <a href="https://jotrockenmitlocken.de"><img src="https://codecov.io/gh/Kataglyphis/MachineLearningAlgorithms/branch/main/graphs/sunburst.svg?token=ABEPPS3KCJ" alt="ML" width="350"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="https://codecov.io/gh/Kataglyphis/MachineLearningAlgorithms/branch/main/graphs/tree.svg?token=ABEPPS3KCJ" alt="ML" width="350"></a>
+</h1>
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -249,9 +279,12 @@ Jonas Heinle - [@Cataglyphis_](https://twitter.com/Cataglyphis_) - jonasheinle@g
 Project Link: [https://github.com/Kataglyphis/MachineLearningAlgorithms](https://github.com/Kataglyphis/MachineLearningAlgorithms)
 
 ## Literature 
+Anaconda
+* [cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
+
 Machine Learning Literature
 * [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
-
+ 
 Datasets
 * [pytorch datasets](https://github.com/pytorch/vision)
 
