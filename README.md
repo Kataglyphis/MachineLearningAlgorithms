@@ -12,8 +12,8 @@
   <br>
 </h1>
 
-[![BuildWindows](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20ubuntu)](https://jotrockenmitlocken.de)
-[![BuildWin](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20Windows)](https://jotrockenmitlocken.de)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20ubuntu?label=Windows%20build&logo=Github)](https://jotrockenmitlocken.de)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Kataglyphis/MachineLearningAlgorithms/Python%20application%20on%20Windows?label=Windows%20build&logo=Github)](https://jotrockenmitlocken.de)
 [![TopLang](https://img.shields.io/github/languages/top/Kataglyphis/MachineLearningAlgorithms)](https://jotrockenmitlocken.de)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=BX9AVVES2P9LN)
 [![Twitter](https://img.shields.io/twitter/follow/Cataglyphis_?style=social)](https://twitter.com/Cataglyphis_)
