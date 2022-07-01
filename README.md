@@ -57,8 +57,9 @@
     <li>
       <a href="#roadmap">Usage</a></li>
       <ul>
-        <li><a href="#prerequisites">VAE</a></li>
-        <li><a href="#installation">Image Segmentation</a></li>
+        <li><a href="#environment">pip/conda environment</a></li>
+        <li><a href="#vae">VAE</a></li>
+        <li><a href="#image segmentation">Image Segmentation</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -105,6 +106,7 @@ Playground for a variety of different ML algorithms
 * [Cuda](https://developer.nvidia.com/cuda-zone)
 * [TensorFlow](https://www.tensorflow.org/)
 * [Anaconda](https://www.anaconda.com/products/distribution)
+* [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html#get-started)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -127,6 +129,16 @@ Some graphics card.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+### pip/conda environment
+  After changing something in your conda environment (the `environment.yaml` file) make sure
+  to update the `requirements.txt` the following way.
+  ```sh
+    conda activate <env>
+    conda install pip
+    pip freeze > requirements.txt
+  ```
+  For more information go to this excellent [stackoverflow entry](https://stackoverflow.com/questions/50777849/from-conda-create-requirements-txt-for-pip3).
 
 ### VAE
 
