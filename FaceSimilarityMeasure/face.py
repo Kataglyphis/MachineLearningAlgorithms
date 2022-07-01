@@ -33,7 +33,7 @@ from keras import regularizers
 #from tensorflow.keras.preprocessing import image
 #from tensorflow.keras.applications.resnet50 import preprocess_input, decode_predictions
 from tensorflow.keras.applications.inception_v3 import InceptionV3
-from tensorflow.keras.models import 
+from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Input, Lambda, Conv2D, MaxPooling2D, LocallyConnected2D, Flatten, Dropout
 from tensorflow.keras.optimizers import SGD
 #from keras_vggface.vggface import VGGFace
