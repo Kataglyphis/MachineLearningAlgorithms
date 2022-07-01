@@ -36,7 +36,7 @@ jobs:
     - name: Lint with flake8
       run: |
         export PATH=$PATH:/usr/share/miniconda/flake8
-        echo $PATH
+        ls /usr/share/miniconda
         whereis flake8
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
