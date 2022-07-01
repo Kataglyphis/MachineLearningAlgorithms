@@ -27,13 +27,6 @@ jobs:
         python-version: 3.6.13
         auto-activate-base: false
 
-    - name: Install dependencies
-      shell: pwsh
-      run: |
-        conda install flake8
-        conda install -c conda-forge pytest
-        conda install coverage
-        conda install requests
     - name: Lint with flake8
       shell: pwsh
       run: |
@@ -50,6 +43,7 @@ jobs:
                   --max-line-length=127 `
                   --statistics `
                   --extend-exclude build,dist,LSTM/lstm_template.py,VariationalAutoEncoder/train_vae_template.py
+
     - name: Test with pytest
       shell: pwsh
       run: |
