@@ -44,7 +44,7 @@ jobs:
                   --statistics `
                   --extend-exclude build,dist,LSTM/lstm_template.py,VariationalAutoEncoder/train_vae_template.py
 
-    - name: Test with pytest
+    - name: Test with pytest 
       shell: pwsh
       run: |
         pytest
