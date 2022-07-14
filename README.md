@@ -73,6 +73,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#resources">Resources</a></li>
     <li><a href="#literature">Literature</a></li>
   </ol>
 </details>
@@ -122,7 +123,7 @@ Playground for a variety of different ML algorithms
 
 ### Prerequisites
 
-[Python](https://www.python.org/) 3.9 <br />
+[Python](https://www.python.org/) 3.8 <br />
 For the dependencies on python modules I created a [Anaconda Env .yml](Documents/anaconda/environment.yaml). You can import it in your anaconda project.<br />
 Some graphics card. 
 
@@ -134,7 +135,11 @@ Some graphics card.
    ```sh
    git clone git@github.com:Kataglyphis/MachineLearningAlgorithms.git
    ```
-2. Consider using some form of packet management/-distribution software. I am using here [Anaconda](https://www.anaconda.com/products/distribution). If you also do so you can use my [Anaconda Env .yml](Documents/anaconda/environment.yaml) for getting all python module dependencies.
+2. Consider using some form of packet management/-distribution software. I am using here [Anaconda](https://www.anaconda.com/products/distribution). If you also do so you can use my [Anaconda Env .yml](Documents/anaconda/environment.yaml) for getting all python module dependencies.<br/>
+
+  ```sh
+    conda env create -f environment.yaml 
+  ```
   
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -278,7 +283,22 @@ Jonas Heinle - [@Cataglyphis_](https://twitter.com/Cataglyphis_) - jonasheinle@g
 
 Project Link: [https://github.com/Kataglyphis/MachineLearningAlgorithms](https://github.com/Kataglyphis/MachineLearningAlgorithms)
 
-## Literature 
+## Resources
+For datasets <br/>
+* [Googles Dataset search](https://datasetsearch.research.google.com/)
+* [Kaggle](https://www.kaggle.com/)
+* [ImageNet](https://image-net.org/)
+* [ImageCLEF](https://www.imageclef.org/datasets)
+* [OxfordRobotics](https://www.robots.ox.ac.uk/~vgg/data/)
+* [COCO Dataset](https://cocodataset.org/#home)
+* [UCI Dataset](https://archive.ics.uci.edu/ml/datasets.php)
+* [List on wikipedia](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
+* [govdata](https://www.govdata.de/)
+* [Statista](https://de.statista.com/)
+* [DataFlair](https://data-flair.training/blogs/machine-learning-datasets/)
+* [SkiKitLearn Datasets](https://scikit-learn.org/stable/datasets)
+
+## Literature
 Anaconda
 * [cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
 

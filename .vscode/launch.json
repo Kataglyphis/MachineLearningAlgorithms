@@ -5,12 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Aktuelle Datei",
+            "name": "Python: Aktuelle Datei (Debug)",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "args": [
                 "-c", "environment",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Aktuelle Datei (Highly optimized)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-c", "environment",
+                "-OO"
             ],
             "console": "integratedTerminal",
             "justMyCode": true
