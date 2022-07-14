@@ -296,7 +296,7 @@ For datasets <br/>
 * [govdata](https://www.govdata.de/)
 * [Statista](https://de.statista.com/)
 * [DataFlair](https://data-flair.training/blogs/machine-learning-datasets/)
-* [SkiKitLearn Datasets](https://scikit-learn.org/stable/datasets)
+* [SkiKitLearn Datasets](https://scikit-learn.org/stable/datasets) 
 
 ## Literature
 Anaconda
