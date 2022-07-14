@@ -24,7 +24,7 @@ jobs:
       with: 
         activate-environment: environment
         environment-file: environment.yaml
-        python-version: 3.6.13
+        python-version: 3.8
         auto-activate-base: false
 
     - name: Lint with flake8
