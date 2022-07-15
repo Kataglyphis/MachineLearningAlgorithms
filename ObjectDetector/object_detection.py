@@ -26,9 +26,7 @@ import tensorflow as tf
 
 from keras import backend as K
 
-from matplotlib import pyplot as plt
-
-
+import matplotlib.pyplot as plt
 
 # size of the images; shape =(size,size)
 SIZE=150

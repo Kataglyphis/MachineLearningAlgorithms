@@ -24,7 +24,7 @@ jobs:
       with: 
         activate-environment: environment
         environment-file: environment.yaml
-        python-version: 3.6.13
+        python-version: 3.8
         auto-activate-base: false
 
     - name: Lint with flake8
@@ -44,7 +44,7 @@ jobs:
                   --statistics `
                   --extend-exclude build,dist,LSTM/lstm_template.py,VariationalAutoEncoder/train_vae_template.py
 
-    - name: Test with pytest
+    - name: Test with pytest 
       shell: pwsh
       run: |
         pytest
