@@ -107,16 +107,21 @@ Playground for a variety of different ML algorithms
 | Probabilistic PCA with Expectation Maximization       |         ✔️         |
 | Neural Network Classifier from Scratch                |         ✔️         |
 | Probabilistic PCA with Expectation Maximization       |         ✔️         |
+
 ### Built With
+
+For a detailed list of all required packages have a look into [environment.yaml](environment.yaml).
+In the following a incomplete list (with its purpose):
 
 * [Python](https://www.python.org/)
 * [Jupyter Notebook](https://jupyter.org/)
 * [CuPy](https://cupy.dev/)
 * [Cuda](https://developer.nvidia.com/cuda-zone)
 * [TensorFlow](https://www.tensorflow.org/)
-* [Anaconda](https://www.anaconda.com/products/distribution)
-* [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html#get-started)
+* [Anaconda](https://www.anaconda.com/products/distribution) cross platform packet manager for python
+* [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html#get-started) python testing framework
 * [Github Actions: setup-miniconda](https://github.com/marketplace/actions/setup-miniconda)
+* [flake8](https://flake8.pycqa.org/en/latest/) static code analysis for python
 <!-- GETTING STARTED -->
 ## Getting Started
 
