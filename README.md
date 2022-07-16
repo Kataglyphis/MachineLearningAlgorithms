@@ -111,8 +111,8 @@ Playground for a variety of different ML algorithms
 
 ### Built With
 
-For a detailed list of all required packages have a look into [environment.yaml](environment.yaml).
-In the following a incomplete list (with its purpose):
+For a detailed list of all required packages have a look into the respective environment.yaml. Each project uses its own environment in its own sub directory. <br/>
+In the following an list (with its purpose):
 
 * [Python](https://www.python.org/)
 * [Jupyter Notebook](https://jupyter.org/)
@@ -129,22 +129,21 @@ In the following a incomplete list (with its purpose):
 ### Prerequisites
 
 [Python](https://www.python.org/) 3.8 <br />
-For the dependencies on python modules I created a [Anaconda Env .yml](Documents/anaconda/environment.yaml). You can import it in your anaconda project.<br />
-Some graphics card. 
+For the dependencies on python modules I created an anaconda environment.yaml file. You can import it in your anaconda project.<br />
+For some projects you should have a potent graphics card. (I test code under RTX 2060 SUPER and RTX 3060 Notebook GPU)
 
 
 ### Installation
 
 1. Clone the repo
 
-   ```sh
-   git clone git@github.com:Kataglyphis/MachineLearningAlgorithms.git
-   ```
-2. Consider using some form of packet management/-distribution software. I am using here [Anaconda](https://www.anaconda.com/products/distribution). If you also do so you can use my [Anaconda Env .yml](Documents/anaconda/environment.yaml) for getting all python module dependencies.<br/>
-
-  ```sh
-    conda env create -f environment.yaml 
-  ```
+    ```sh
+    git clone git@github.com:Kataglyphis/MachineLearningAlgorithms.git
+    ```
+2. Consider using some form of packet management/-distribution software. I am using       here  [Anaconda](https://www.anaconda.com/products/distribution). If you also do so you can use my [Anaconda Env .yml](Documents/anaconda/environment.yaml) for getting all python module dependencies. Keep in mind every project uses its own environment!<br/>
+    ```sh
+    conda env create -f environment_PROJECT_TOKEN.yaml 
+    ```
   
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -342,130 +341,7 @@ Image Segmentation
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jonas-heinle-0b2a301a0/
 
-- typing-extensions
-  - pyparsing
-  - webencodings
-  - ipython_genutils
-  - jupyter_client
-  - wcwidth
-  - argon2-cffi
-  - google-auth
-  - gast
-  - pandoc
-  - freetype
-  - jupyterlab_pygments
-  - toml
-  - notebook
-  - pickleshare
-  - kiwisolver
-  - certifi
-  - packaging
-  - google-auth-oauthlib
-  - idna_ssl
-  - ca-certificates
-  - iniconfig
-  - attrs
-  - icu
-  - tornado
-  - requests-oauthlib
-  - sip
-  - protobuf
-  - pyjwt
-  - wrapt
-  - tk
-  - atomicwrites
-  - intel-openmp
-  - yaml
-  - pluggy
-  - pygments
-  - opt_einsum
-  - requests
-  - zstd
-  - nbformat
-  - olefile
-  - multidict
-  - ipykernel
-  - charset-normalizer
-  - pyopenssl
-  - libtiff
-  - jinja2
-  - pyzmq
-  - grpcio
-  - markdown
-  - async_generator
-  - importlib_metadata
-  - idna
-  - libprotobuf
-  - zlib
-  - brotlipy
-  - pycparser
-  - yarl
-  - _tflow_select
-  - pyasn1-modules
-  - pyasn1
-  - typing_extensions
-  - defusedxml
-  - parso
-  - cachetools
-  - google-pasta
-  - blinker
-  - six
-  - pysocks
-  - markupsafe
-  - hdf5
-  - mistune
-  - prompt-toolkit
-  - jupyter_core
-  - pyqt
-  - werkzeug
-  - blas
-  - cffi
-  - colorama
-  - py
-  - aiohttp
-  - astor
-  - more-itertools
-  - jsonschema
-  - terminado
-  - jpeg
-  - testpath
-  - nbclient
-  - qt
-  - oauthlib
-  - click
-  - setuptools
-  - termcolor
-  - cycler
-  - cryptography
-  - joblib
-  - wheel
-  - importlib-metadata
-  - rsa
-  - send2trash
-  - entrypoints
-  - pyrsistent
-  - jedi
-  - lz4-c
-  - nest-asyncio
-  - h5py
-  - sqlite
-  - decorator
-  - pyyaml
-  - backcall
-  - nbconvert
-  - pandocfilters
-  - absl-py
-  - zipp
-  - libpng
-  - pytz
-  - async-timeout
-  - xz
-  - bleach
-  - ipython
-  - openssl
-  - prometheus_client
-  - python-dateutil
-  - urllib3
-  - traitlets
-  - threadpoolctl
-  - chardet
+  - cupy
+  - keras-gpu
+  - pytorch
+  - opencv

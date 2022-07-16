@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  build_face_sim:
 
     runs-on: windows-latest
     if: "contains(github.event.head_commit.message, '[build-ci]')"
@@ -23,7 +23,28 @@ jobs:
     - uses: conda-incubator/setup-miniconda@v2.1.1
       with: 
         activate-environment: environment
-        environment-file: environment.yaml
+        environment-file: FaceSimilarityMeasure/environment.yaml
+        python-version: 3.8
+        auto-activate-base: false
+
+    - uses: conda-incubator/setup-miniconda@v2.1.1
+      with: 
+        activate-environment: environment
+        environment-file: ImageSegmentation/environment.yaml
+        python-version: 3.8
+        auto-activate-base: false
+
+    - uses: conda-incubator/setup-miniconda@v2.1.1
+      with: 
+        activate-environment: environment
+        environment-file: LSTM/environment.yaml
+        python-version: 3.8
+        auto-activate-base: false
+
+    - uses: conda-incubator/setup-miniconda@v2.1.1
+      with: 
+        activate-environment: environment
+        environment-file: ObjectDetector/environment.yaml
         python-version: 3.8
         auto-activate-base: false
 

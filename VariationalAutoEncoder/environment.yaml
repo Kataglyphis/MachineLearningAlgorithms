@@ -1,0 +1,15 @@
+name: vae_environment
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - cython
+  - numpy
+  - flake8
+  - coverage
+  - pytest
+  - scipy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - tensorflow-gpu
