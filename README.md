@@ -5,10 +5,11 @@
     MLPlayground
   <br>
   <br>
-  <a href="https://jotrockenmitlocken.de"><img src="images/Python_logo.png" alt="MLAlgo" width="50"></a>
-  <a href="https://jotrockenmitlocken.de"><img src="images/Tensorflow_logo.svg.png" alt="MLAlgo" width="50"></a>
-  <a href="https://jotrockenmitlocken.de"><img src="images/cupy_icon.png" alt="MLAlgo" width="50"></a>
-  <a href="https://jotrockenmitlocken.de"><img src="images/anaconda_icon.png" alt="MLAlgo" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/Python_logo.png" alt="python logo" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/Tensorflow_logo.svg.png" alt="tensorflow icon" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/cupy_icon.png" alt="cupy icon" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/anaconda_icon.png" alt="anaconda icon" width="50"></a>
+  <a href="https://jotrockenmitlocken.de"><img src="images/pytorch.png" alt="pytorch symbol" width="50"></a>
   <br>
 </h1>
   
